@@ -37,7 +37,7 @@ phase1 negotiation failed due to time up 11.32.86.22[500]<=>192.168.1.15[500]
 
 So I decided to write script to process first string and that's what I got:
 
-
+https://github.com/Onoro/Mikrotik/blob/master/script1.rsc
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Part 3
 
