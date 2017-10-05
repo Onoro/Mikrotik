@@ -23,3 +23,5 @@ foreach i in=$l2tp do={
 					}
                }
 }
+#you have to change mail.srv to your valid smtp server and alerts@mail.srv to your valid mail address.
+#second step is to configure Tools>Email tool in Mikrotik menu via Winbox, ssh or web interface.
