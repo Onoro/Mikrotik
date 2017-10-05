@@ -35,7 +35,10 @@ Five strings with:
 and one string with:
 phase1 negotiation failed due to time up 11.32.86.22[500]<=>192.168.1.15[500]
 
-So I decided to write script to process first string and that's what I got: https://github.com/Onoro/Mikrotik/blob/master/script1.rsc
+So I decided to write script to process first string and that's what I got: 
+
+https://github.com/Onoro/Mikrotik/blob/master/script1.rsc
+
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Part 3
 
@@ -51,6 +54,7 @@ no suitable proposal found
 So I changed couple strings in initial script and got second one. 
 As a result, I solved a problem with Mikrotik L2TP server protection. 
 
+https://github.com/Onoro/Mikrotik/blob/master/script2.rsc
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
