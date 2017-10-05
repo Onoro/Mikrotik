@@ -1,4 +1,9 @@
 
+*********************************************************
+*               Mikrotik L2TP protection.               *
+*         https://github.com/Onoro/Mikrotik/            *
+*                                                       *
+*********************************************************
 #variables
 :local pop 3
 :local ipaddr
