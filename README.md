@@ -7,6 +7,7 @@ Part 1
 
 I spent a lot of time in search of information about L2TP protection. I found couple posts which helped me to write first part of that instruction.
 The first third of the protection of L2TP is firewall rules. They are monitoring and blocking connections from blacklist and preventing password brutforce. 
+
 I think that there is no need to explain them, but one thing I have to admit, that you will be forced to change interface name from ether1-WAN to your WAN interface.
  
 
