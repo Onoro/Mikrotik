@@ -10,7 +10,7 @@ The first third of the protection of L2TP is firewall rules. They are monitoring
 
 I think that there is no need to explain them, but one thing I have to admit, that you will be forced to change interface name from ether1-WAN to your WAN interface.
  
-
+https://github.com/Onoro/Mikrotik/blob/master/firewall.rsc
 
 I will try to reproduce attackers actions and connect to my L2TP network.
 Server (Mikrotik) runs l2tp+ipsec server. So you need such information: hostname or IP, proposal, IPSec Secret, user and password.
