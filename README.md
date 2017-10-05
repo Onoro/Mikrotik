@@ -117,4 +117,4 @@ foreach i in=$l2tp do={
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-And the last thing You have to do it's to add that scripts to sheduller.
+And the last steaps you have to do it's to add that scripts to sheduller and move firewall rules upper in the list.
