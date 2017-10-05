@@ -58,4 +58,4 @@ https://github.com/Onoro/Mikrotik/blob/master/script2.rsc
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-And the last steaps you have to do it's to add these scripts to sheduller and move firewall rules upper in the list.
+And the last steaps you have to do. It's to add these scripts to sheduller, move firewall rules upper in the list and to change mail.srv to your valid smtp server and alerts@mail.srv to your valid mail address.
