@@ -57,5 +57,22 @@ As a result, I solved a problem with Mikrotik L2TP server protection.
 https://github.com/Onoro/Mikrotik/blob/master/script2.rsc
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+Part 4
+
+All these instructions helped me to protect Mikrotik devices, but I noticed that there are is a lot of such records in log:
+
+04:41:13 ipsec,info respond new phase 1 (Identity Protection): xxx.xxx.xxx.xxx[500]<=217.25.18.110[500] 
+04:41:13 ipsec,error no suitable proposal found. 
+04:41:13 ipsec,error 217.25.18.110 failed to get valid proposal. 
+04:41:13 ipsec,error 217.25.18.110 failed to pre-process ph1 packet (side: 1, stat
+us 1). 
+04:41:13 ipsec,error 217.25.18.110 phase1 negotiation fail
+
+so I decided to create third script which is similar to other two:
+
+
+https://github.com/Onoro/Mikrotik/blob/master/script3.rsc
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 And the last steaps you have to do. It's to add these scripts to sheduller, move firewall rules upper in the list and to change mail.srv to your valid smtp server and alerts@mail.srv to your valid mail address.
